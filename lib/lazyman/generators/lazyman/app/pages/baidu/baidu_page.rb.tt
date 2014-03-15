@@ -2,8 +2,8 @@
 class BaiduPage < <%= app_name.camelize%>Page
 	page_url 'www.baidu.com'
 	
-	text_field 'keyword', id: 'kw'
-	button 'search', id: 'su'
+	text_field 'keyword', id: 'kw1'
+	button 'search', id: 'su1'
 
 	def search_for kw
 		self.keyword = kw

@@ -1,5 +1,4 @@
 #encoding: utf-8
-require File.expand_path 'app/cases/spec_helper'
 require File.expand_path 'app/cases/shared/login'
 
 describe 'report issue', :mantis do

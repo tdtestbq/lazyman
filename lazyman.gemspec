@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = "lazyman"
-  s.version = "0.1.13"
+  s.version = "0.1.14"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["easonhan"]
-  s.date = "2013-07-24"
+  s.authors = ["dbquan"]
+  s.date = "2014-03-15"
   s.description = "A test framework using watir-webdriver rspec and page-object"
-  s.email = "nbkhic@qq.com"
+  s.email = "dengbeiquan@gmail.com"
   s.executables = ["lazyman"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,11 +34,11 @@ Gem::Specification.new do |s|
     "lib/lazyman/errors.rb",
     "lib/lazyman/ext/string.rb",
     "lib/lazyman/generators/lazyman/.rspec",
+	"lib/lazyman/generators/lazyman/spec/spec_helper.rb.tt",
     "lib/lazyman/generators/lazyman/app/cases/baidu_and_google/baidu_example_spec.rb",
     "lib/lazyman/generators/lazyman/app/cases/baidu_and_google/google_example_spec.rb",
     "lib/lazyman/generators/lazyman/app/cases/mantis/report_issue_spec.rb",
     "lib/lazyman/generators/lazyman/app/cases/shared/login.rb",
-    "lib/lazyman/generators/lazyman/app/cases/spec_helper.rb.tt",
     "lib/lazyman/generators/lazyman/app/matchers/.empty_directory",
     "lib/lazyman/generators/lazyman/app/pages/%app_name%_navigator.rb.tt",
     "lib/lazyman/generators/lazyman/app/pages/%app_name%_page.rb.tt",
@@ -81,7 +81,7 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/string_spec.rb"
   ]
-  s.homepage = "https://github.com/easonhan007/lazyman"
+  s.homepage = "https://github.com/tdtestbq/lazyman"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.17"

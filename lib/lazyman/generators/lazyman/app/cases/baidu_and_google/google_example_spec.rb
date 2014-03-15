@@ -1,5 +1,4 @@
 #encoding: utf-8
-require File.expand_path 'app/cases/spec_helper'
 
 describe 'Google example show you how to use lazyman', :google do
 

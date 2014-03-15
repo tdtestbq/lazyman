@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-spec_helper = File.expand_path(File.join('.', 'app', 'cases', 'spec_helper.rb'))
+spec_helper = File.expand_path(File.join('.', 'spec', 'spec_helper.rb'))
 
 setup = File.join(File.dirname(__FILE__), 'setup.rb')
 

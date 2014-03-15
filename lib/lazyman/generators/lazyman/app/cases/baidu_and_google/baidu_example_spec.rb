@@ -1,5 +1,4 @@
 #encoding: utf-8
-require File.expand_path 'app/cases/spec_helper'
 
 describe 'Baidu example show you how to use lazyman', :baidu do
 
